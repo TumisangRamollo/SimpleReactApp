@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, rgba(10, 42, 83, 0), rgb(11, 48, 6));
+}
+
+.App {
+  text-align: center;
+ }
+
+form{
+  width:30%;
+  margin:auto;
+  position:relative;
+  background-color: rgba(18, 48, 38, 0.332);
+  box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  border-radius: 1rem;
+  padding:2rem;
+}
+
+.login-form .group{
+  margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+  width:100%;
+  color:#fff;
+  display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+  border:none;
+  padding:15px 0px;
+  border-radius:25px;
+  background:rgba(255,255,255,.1);
+}
+
+.login-form .group .label{
+  color:#aaa;
+  font-size:12px;
+}
+.login-form .group .button{
+  background:#1161ee;
+}
+
+
+.hr{
+  height:2px;
+  margin:60px 0 50px 0;
+  background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+  text-align:center;
+}
